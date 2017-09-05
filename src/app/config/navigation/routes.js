@@ -7,14 +7,20 @@ export const MainRoutes = [
     title: 'Exercises',
     screen: Screens.Exercises,
     children: []
-  }
+  },
+  {
+    id: 'ExerciseTypes',
+    title: 'Exercise Types',
+    screen: Screens.ExerciseTypes,
+    children: []
+  },
 ];
 
 let menuRoutes = _.cloneDeep(MainRoutes);
 menuRoutes.unshift({
-  id: 'Exercises',
-  title: 'Exercises',
-  screen: Screens.Exercises,
+  id: 'ExerciseTypes',
+  title: 'Exercise Types',
+  screen: Screens.ExerciseTypes,
   children: []
 },);
 

@@ -13,7 +13,8 @@ bootstrap();
 var a = '';
 
 const BBY = StackNavigator({
-  Home: { screen: Screens.Exercises },
+  Home: { screen: Screens.ExerciseTypes },
+  Exercises: { screen: Screens.Exercises }
 });
 
 export default BBY;
