@@ -65,10 +65,10 @@ const Colors = {
 };
 
 const Fonts = {
-  light: 'Roboto-Light',
-  regular: 'Roboto-Regular',
-  bold: 'Roboto-Medium',
-  logo: 'Righteous-Regular',
+  light: 'Arial',
+  regular: 'Arial',
+  bold: 'Arial',
+  logo: 'Arial',
 };
 
 const FontBaseValue = scale(18);

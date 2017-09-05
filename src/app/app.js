@@ -6,12 +6,11 @@ import {
 } from 'react-navigation';
 import * as Screens from './screens';
 import {bootstrap} from './config/bootstrap';
-import {data} from './data'
+// import {data} from './data'
 
 
 bootstrap();
-data.populateRealm();
-
+var a = '';
 
 const BBY = StackNavigator({
   Home: { screen: Screens.Exercises },

@@ -1,8 +1,8 @@
-import {Exercise} from './schemas';
+// import {Exercise} from './schemas';
 
-export default [
-  {
-    schema: [Exercise, ExerciseType],
-    schemaVersion: 1,
-  }
-];
+// export default [
+//   {
+//     schema: [Exercise, ExerciseType],
+//     schemaVersion: 1,
+//   }
+// ];

@@ -19,7 +19,7 @@ export class Exercises extends React.Component {
 
   constructor(props) {
     super(props);
-    this.data = data.getExercise();
+    this.data = data.getExercises();
     this.renderItem = this._renderItem.bind(this);
   }
 
@@ -36,9 +36,6 @@ export class Exercises extends React.Component {
           <RkText numberOfLines={1} rkType='header6'>{info.item.title}</RkText>
           <RkText style={styles.post} numberOfLines={2} rkType='secondary1'>{info.item.description}</RkText>
         </View>
-        <View rkCardFooter>
-          <SocialBar rkType='space' showLabel={true}/>
-        </View >
       </RkCard>
     )
   }
